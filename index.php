@@ -19,7 +19,7 @@ $usuarios->setUsuario($_SESSION['logado']);
                 <?php if($usuarios->temPermissoes('SUPER')): ?><button><a href="gestao_usuarios.php">GESTÃO DE USUÁRIOS</a></button><?php endif; ?>
         <br><br><hr>
         <button><a href="sair.php">SAIR</a></button>
-        <table border="1" width="100%">
+        <table class="table table-striped" width="100%">
         <tr>
                 <th>ID</th>
                 <th>NOME</th>

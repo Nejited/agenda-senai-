@@ -1,0 +1,17 @@
+body{
+    margin: o auto;
+    width: 100%;
+    max-width: 1920px;
+    background-color: rgb(117, 95, 95);
+}
+header {
+    position: relative;
+    background: linear-gradient(rgb(158, 157, 157), rgb(39, 39, 39));
+    height: 150px;
+}
+footer{
+    background: linear-gradient(rgb(36, 36, 36), rgb(158, 157, 157));
+    height: 100px;
+    clear: both;
+
+}
